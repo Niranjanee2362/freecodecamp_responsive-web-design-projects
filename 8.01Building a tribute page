@@ -1,0 +1,60 @@
+<style>
+  body {
+    background-color: peach;
+    color: black;
+    font-family: georgia;
+  }
+</style>
+
+<div id="main">
+  <h1 id="title"> Jaap Haartsen </h1>
+  <h4><center>The man behind Bluetooth</center></h4>
+  <div id="img-div">
+    <a id="tribute-link" target="_blank" href="https://www.invent.org/inductees/jaap-c-haartsen">
+    <img id="image" src="https://www.invent.org/sites/default/files/styles/inductee_detail_media/public/inductees/509-master_0.jpg?h=9b5fbae8&itok=U3EmXwbL" alt="Jaap Haartsen" width="30%" height="30%">
+    </a><br>
+    <figcaption id="img-caption"> Jacobus Cornelis Haartsen is a Dutch electrical engineer, researcher, inventor and entrepreneur best known for his role in producing the specification for Bluetooth.</figcaption>
+  </div>
+  <p id="tribute-info"> 
+    <b>Here is the Eductional Bacground of Jaap Haartsen</b>
+  <ul id="bullet">
+    <li>1986: He obtained his degree in master of science in Electrical Engineering with honors at Delft University of Technology</li><br>
+    <li>1990: He obtained a PhD from Delft University of Technology with honors defending the thesis titled "Programmable surface acoustic wave detection in silicon: design of programmable filters"</li><br>
+    <li>1991: he worked for Ericsson, in United States between 1991 and 1993</li><br>
+    <li>1993: he worked for Ericsson, between 1993 and 1997, in Sweden. While working for Ericsson Mobile Terminal Division in Lund, he developed Bluetooth specification. Later, in 1997 he moved to Ericsson division in Emmen</li><br>
+    <li>2000: He was a part-time professor at University of Twente, teaching mobile radio communications systems.</li><br>
+    <li>2008: He became wireless expert at Plantronics.</li><br>
+    <li>2015: He was inducted into the National Inventors Hall of Fame.</li><br>
+  </ul>
+  <p><center>To know more about this person who relly gave a new dimension to our current technology<a href="https://www.invent.org/inductees/jaap-c-haartsen" target="_blank" id="Click-here"> Click here</a></center></p>
+  </p>
+</div>
+#title
+{
+ text-align: center; 
+}
+#img-caption
+{
+  width: 400px;
+  text-align: center;
+  margin-left: 36%;
+}
+#tribute-info
+{
+  color: black;
+  max-width: 600px;
+  margin-left: 550px;
+}
+
+#image {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 10px auto 10px auto;
+}
+#bullet {
+  display: block;
+  max-width: 100%;
+  margin-left: 250px;
+  text-align: justify;
+}
